@@ -5,7 +5,47 @@ body {
   text-align: center;
 }
 
-h1 {
-  font-weight: 400
+.status {
+  background-color: beige;
+  transition: 2s ease-in-out;
+  height: 100%;
+  width: 100%;
 }
+.status.wrong {
+  background-color: red;
+  transition: 2s ease-in-out;
+}
+
+.status.correct {
+  background-color: rgb(78, 208, 78);
+  transition: 2s ease-in-out;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+span {
+  display: inline-block;
+  align-content: center;
+  height: 30px; 
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+#guessResult {
+  font-weight: bold;
+  font-size: 150%;
+}
+
+#userNumGuess {
+  min-width: 55px;
+}
+
+.userDoesStuffHere {
+  display: inline-flex;
+  gap: 8px;
+  justify-content: space-around; 
+}
+
 
