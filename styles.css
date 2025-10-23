@@ -45,7 +45,11 @@ span {
 .userDoesStuffHere {
   display: inline-flex;
   gap: 8px;
-  justify-content: space-around; 
+  justify-content: space-around;
+  box-shadow: 10px 10px 10px gray;
+  border: 5px solid black;
+  padding: 10px;
+  background-color: aqua;
 }
 
 
